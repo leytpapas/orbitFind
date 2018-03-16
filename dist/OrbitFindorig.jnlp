@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OrbitFindorig.jnlp">
+  <information>
+    <title>OrbitFindorig</title>
+    <vendor>elefpapa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OrbitFindorig.jar" size="2066170" download="eager" />
+    <jar href="lib\JMapViewer.jar" size="141083" download="eager" />
+  </resources>
+  <application-desc main-class="orbitfind.mainFrame"  name="OrbitFindorig" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>

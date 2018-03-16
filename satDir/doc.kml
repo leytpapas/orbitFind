@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>Satellite Database</name>
+	<visibility>0</visibility>
+	<description><![CDATA[<a href="http://www.agi.com/"><img border="0" src="files/banner.jpg"></a>
+<p>This KML network link visualizes all earth orbiting objects tracked by the <a href="http://www.stratcom.mil/">United States Strategic Command</a>
+(USSTRATCOM) using the satellite database processed by <a href="http://www.agi.com/">Analytical Graphics, Inc.</a> using the
+<a href="http://www.stk.com/products/components/main.cfm">Dynamic Geometry Library</a>.  All satellites are tracked in real-time
+and updated every 30 seconds.</p>
+
+<p> USSTRATCOM has been tracking space objects since 1957 when the Soviets opened the space age with the launch of Sputnik I.
+Since then, they have recorded more than 26,000 space objects orbiting Earth.  There are currently more than 12,000 man-made
+orbiting objects, the rest have re-entered Earth's turbulent atmosphere and disintegrated, or survived re-entry and impacted
+the Earth. The space objects now orbiting Earth range from satellites weighing several tons to pieces of spent rocket bodies
+weighing under 10 pounds. About 3,000 space objects are operational satellites, the rest are space debris, retired satellites
+and rocket bodies left over from launches.</p>
+
+<p> Analytical Graphics, Inc. (AGI) develops commercial off-the-shelf (COTS) analysis software for land, sea, air and space that
+is relied upon by the national security and space communities. With more than 32,000 worldwide installations, the main applications
+of AGI technologies focus on battlespace management, geospatial intelligence, space systems and national defense programs. In addition
+to the STK product suite, AGI produces the desktop software applications Navigation Tool Kit and Orbit Determination Tool Kit; interactive
+visualization AGI Viewer software; and the embedded technology development tool 4DX. For more information about AGI or its commercially
+available software technologies, e-mail <a href="mailto:info@agi.com">info@agi.com</a> or explore <a href="http://www.agi.com/">www.agi.com.</a></p>]]></description>
+	<Link>
+		<href>http://adn.agi.com/SatelliteDatabase/KmlNetworkLink.aspx</href>
+	</Link>
+</NetworkLink>
+</kml>

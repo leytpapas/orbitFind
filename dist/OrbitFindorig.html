@@ -1,0 +1,48 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'OrbitFindorig.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iT3JiaXRGaW5kb3JpZy5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5PcmJpdEZpbmRvcmlnPC90aXRsZT4NCiAgICA8dmVuZG9yPmVsZWZwYXBhPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9Ik9yYml0RmluZG9yaWcuamFyIiBzaXplPSIyMDY2MTcwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcSk1hcFZpZXdlci5qYXIiIHNpemU9IjE0MTA4MyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxpY2F0aW9uLWRlc2MgbWFpbi1jbGFzcz0ib3JiaXRmaW5kLm1haW5GcmFtZSIgIG5hbWU9Ik9yYml0RmluZG9yaWciID4NCiAgPC9hcHBsaWNhdGlvbi1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedorbitfind() {
+        dtjava.embed(
+            {
+                id : 'orbitfind',
+                toolkit : 'swing',
+                url : 'OrbitFindorig_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iT3JiaXRGaW5kb3JpZ19icm93c2VyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPk9yYml0RmluZG9yaWc8L3RpdGxlPg0KICAgIDx2ZW5kb3I+ZWxlZnBhcGE8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iT3JiaXRGaW5kb3JpZy5qYXIiIHNpemU9IjIwNjYxNzAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxKTWFwVmlld2VyLmphciIgc2l6ZT0iMTQxMDgzIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJvcmJpdGZpbmQubWFpbkZyYW1lIiAgbmFtZT0iT3JiaXRGaW5kb3JpZyIgPg0KICA8L2FwcGxldC1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedorbitfind);
+</script>
+
+</head><body>
+<h2>Test page for <b>OrbitFindorig</b></h2>
+  <b>Webstart:</b> <a href='OrbitFindorig.jnlp' onclick="return launchApplication('OrbitFindorig.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
